@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #3969b5;
+    --primary-color: #3973b5;
     --secondary-color: #ffffff;
     --max-width: 100vh;
 }
@@ -31,6 +31,78 @@
     mask-size: 100%;
     mask-repeat: no-repeat;
     -webkit-mask-image: url(svg/circle.svg);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+}
+.square {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    width: 100vw;
+    height: 100vh;
+    mask-image: url();
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url(svg/square.svg);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+}
+.triangle {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    width: 100vw;
+    height: 100vh;
+    mask-image: url();
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url(svg/triangle.svg);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+}
+.pentagon {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    width: 100vw;
+    height: 100vh;
+    mask-image: url();
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url(svg/pentagon.svg);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+}
+.hexagon {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    width: 100vw;
+    height: 100vh;
+    mask-image: url();
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url(svg/hexagon.svg);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+}
+.octagon {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    width: 100vw;
+    height: 100vh;
+    mask-image: url();
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url(svg/octagon.svg);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+}
+.diamond {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    width: 100vw;
+    height: 100vh;
+    mask-image: url();
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url(svg/diamond.svg);
     -webkit-mask-size: 100%;
     -webkit-mask-repeat: no-repeat;
 }

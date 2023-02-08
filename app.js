@@ -3,4 +3,4 @@ const addMask = (shape) => {
   mask.classList.add(shape);
 };
 
-addMask('circle');
+addMask('diamond');
