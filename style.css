@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #3969b5;
+    --secondary-color: #ffffff;
+    --max-width: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.star {
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    width: 100vw;
+    height: 100vh;
+    mask-image: url();
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url(svg/star.svg);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+}
