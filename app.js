@@ -1,6 +1,6 @@
 const addMask = (shape) => {
-  const mask = document.querySelectorAll('.mask');
-  console.log(mask)
+  const mask = document.querySelector('.mask');
+  mask.classList.add(shape);
 };
 
-addMask('star');
+addMask('circle');
