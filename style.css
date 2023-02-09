@@ -1,20 +1,31 @@
 :root {
     --primary-color: #3973b5;
     --secondary-color: #ffffff;
-    --max-width: 100vh;
+    --max-width: 100vw;
+    --max-height: 100vh;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+
+.mask {
+    height: var(--max-height);
+    max-width: 50%;
+    max-height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .star {
     background-color: var(--primary-color);
     color: var(--primary-color);
-    width: 100vw;
-    height: 100vh;
     mask-image: url();
     mask-size: 100%;
     mask-repeat: no-repeat;
@@ -25,8 +36,6 @@
 .circle {
     background-color: var(--primary-color);
     color: var(--primary-color);
-    width: 100vw;
-    height: 100vh;
     mask-image: url();
     mask-size: 100%;
     mask-repeat: no-repeat;
@@ -37,8 +46,6 @@
 .square {
     background-color: var(--primary-color);
     color: var(--primary-color);
-    width: 100vw;
-    height: 100vh;
     mask-image: url();
     mask-size: 100%;
     mask-repeat: no-repeat;
@@ -49,8 +56,6 @@
 .triangle {
     background-color: var(--primary-color);
     color: var(--primary-color);
-    width: 100vw;
-    height: 100vh;
     mask-image: url();
     mask-size: 100%;
     mask-repeat: no-repeat;
@@ -61,8 +66,6 @@
 .pentagon {
     background-color: var(--primary-color);
     color: var(--primary-color);
-    width: 100vw;
-    height: 100vh;
     mask-image: url();
     mask-size: 100%;
     mask-repeat: no-repeat;
@@ -73,8 +76,6 @@
 .hexagon {
     background-color: var(--primary-color);
     color: var(--primary-color);
-    width: 100vw;
-    height: 100vh;
     mask-image: url();
     mask-size: 100%;
     mask-repeat: no-repeat;
@@ -85,8 +86,6 @@
 .octagon {
     background-color: var(--primary-color);
     color: var(--primary-color);
-    width: 100vw;
-    height: 100vh;
     mask-image: url();
     mask-size: 100%;
     mask-repeat: no-repeat;
@@ -96,13 +95,17 @@
 }
 .diamond {
     background-color: var(--primary-color);
-    color: var(--primary-color);
-    width: 100vw;
-    height: 100vh;
+    color: var(--primary-color);   
     mask-image: url();
     mask-size: 100%;
     mask-repeat: no-repeat;
     -webkit-mask-image: url(svg/diamond.svg);
     -webkit-mask-size: 100%;
     -webkit-mask-repeat: no-repeat;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
