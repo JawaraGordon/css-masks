@@ -11,9 +11,9 @@
   <body>
     <div class="mask"></div>
     <form class="form">
-      <label for="shapes">Pick a Shape:</label>
+      <label class="label-text" for="shapes">Pick a Shape:</label>
       <br />
-      <select id="shapes" onchange="addMask()" name="shapes">
+      <select class="input" id="shapes" onchange="addMask()" name="shapes">
         <option value="circle">Circle</option>
         <option value="square">Square</option>
         <option value="triangle">Triangle</option>
@@ -24,8 +24,10 @@
         <option value="star">Star</option>
       </select>
       <br />
-      <label for="color">Pick a Hex Color</label>
+      <label class="label-text" for="color">Pick a Hex Color</label>
+      <br />
       <input
+        class="input"
         id="color"
         type="text"
         onchange="colorPicker()"

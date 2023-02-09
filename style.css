@@ -3,6 +3,13 @@
     --secondary-color: #ffffff;
     --max-width: 100vw;
     --max-height: 100vh;
+    
+}
+
+html {
+    background-image: linear-gradient(180deg, aqua, yellow);
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 * {
@@ -12,7 +19,6 @@
     
 }
 
-
 .mask {
     height: var(--max-height);
     max-width: 50%;
@@ -21,18 +27,9 @@
     margin-right: auto;
     margin-top: 5rem;
     margin-bottom: 5rem;
+    
 }
 
-.star {
-    background-color: var(--primary-color);
-    color: var(--primary-color);
-    mask-image: url();
-    mask-size: 100%;
-    mask-repeat: no-repeat;
-    -webkit-mask-image: url(svg/star.svg);
-    -webkit-mask-size: 100%;
-    -webkit-mask-repeat: no-repeat;
-}
 .circle {
     background-color: var(--primary-color);
     color: var(--primary-color);
@@ -113,9 +110,16 @@
     -webkit-mask-size: 100%;
     -webkit-mask-repeat: no-repeat;
 }
-
 .form{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.label-text{
+    font-size: 2rem;
+}
+
+.input{
+    height: 2rem;
+    width: 12rem;
 }
