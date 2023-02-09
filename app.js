@@ -9,3 +9,9 @@ const addMask = () => {
 };
 
 addMask();
+
+const colorPicker = () => {
+  const num = document.getElementById('color').value;
+  console.log(num);
+  document.documentElement.style.setProperty('--primary-color', '#' + num);
+};
