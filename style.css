@@ -63,6 +63,16 @@
     -webkit-mask-size: 100%;
     -webkit-mask-repeat: no-repeat;
 }
+.diamond {
+    background-color: var(--primary-color);
+    color: var(--primary-color);   
+    mask-image: url();
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: url(svg/diamond.svg);
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+}
 .pentagon {
     background-color: var(--primary-color);
     color: var(--primary-color);
@@ -93,13 +103,13 @@
     -webkit-mask-size: 100%;
     -webkit-mask-repeat: no-repeat;
 }
-.diamond {
+.star {
     background-color: var(--primary-color);
-    color: var(--primary-color);   
+    color: var(--primary-color);
     mask-image: url();
     mask-size: 100%;
     mask-repeat: no-repeat;
-    -webkit-mask-image: url(svg/diamond.svg);
+    -webkit-mask-image: url(svg/star.svg);
     -webkit-mask-size: 100%;
     -webkit-mask-repeat: no-repeat;
 }
