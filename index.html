@@ -10,31 +10,33 @@
   </head>
   <body>
     <div class="mask"></div>
-    <form class="form">
-      <label class="label-text" for="shapes">Pick a Shape:</label>
-      <br />
-      <select class="input" id="shapes" onchange="addMask()" name="shapes">
-        <option value="circle">Circle</option>
-        <option value="square">Square</option>
-        <option value="triangle">Triangle</option>
-        <option value="diamond">Diamond</option>
-        <option value="pentagon">Pentagon</option>
-        <option value="hexagon">Hexagon</option>
-        <option value="octagon">Octagon</option>
-        <option value="star">Star</option>
-      </select>
-      <br />
-      <label class="label-text" for="color">Pick a Hex Color</label>
-      <br />
-      <input
-        class="input"
-        id="color"
-        type="text"
-        onchange="colorPicker()"
-        name="color"
-        placeholder="enter code without #"
-        maxlength="6"
-      />
-    </form>
+    <div>
+      <form class="form">
+        <label class="label-text" for="shapes">Pick a Shape:</label>
+        <br />
+        <select class="input" id="shapes" onchange="addMask()" name="shapes">
+          <option value="circle">Circle</option>
+          <option value="square">Square</option>
+          <option value="triangle">Triangle</option>
+          <option value="diamond">Diamond</option>
+          <option value="pentagon">Pentagon</option>
+          <option value="hexagon">Hexagon</option>
+          <option value="octagon">Octagon</option>
+          <option value="star">Star</option>
+        </select>
+        <br />
+        <label class="label-text" for="color">Pick a Hex Color</label>
+        <br />
+        <input
+          class="input"
+          id="color"
+          type="text"
+          onchange="colorPicker()"
+          name="color"
+          placeholder="enter code without #"
+          maxlength="6"
+        />
+      </form>
+    </div>
   </body>
 </html>
