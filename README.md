@@ -7,6 +7,10 @@
 - The tool is built using two custom functions that listen for changes on the form drop-down and input.
 - The functions work together to apply the correct SVG mask to the color of your choosing.
 
+### Live Demo
+
+Try a live demo here: https://css-masks-jawaragordon.vercel.app/
+
 ### Getting Started
 
 - To use the tool, simply select a mask shape from the drop-down menu, then choose a hex color for the background. - The tool will then apply the selected mask shape to the background color of your choice.
