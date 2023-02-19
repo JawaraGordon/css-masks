@@ -28,7 +28,18 @@
           <option value="star">Star</option>
         </select>
       </div>
-        <br />
+      <div class="shape-color-container">
+      <label class="label-text" for="color">Shape Color:</label>
+      <input
+        class="input"
+        id="color"
+        type="text"
+        onchange="colorPicker()"
+        name="color"
+        placeholder="enter code without #"
+        maxlength="6"
+      />
+    </div>
         <div class="slider-container">
           <form>
             <fieldset>
