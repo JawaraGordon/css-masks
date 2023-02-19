@@ -112,8 +112,14 @@ html{
     justify-content: space-around;
     padding: 0;
 }
+
+.dropdown-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 .label-text{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .input{
@@ -124,6 +130,13 @@ html{
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .mask {
         height: 35vh;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
     }
   }
 
