@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>masks</title>
+    <link rel="stylesheet" href="./colors.css" />
     <link rel="stylesheet" href="./style.css" />
     <script defer src="./app.js"></script>
+    <script defer src="./colors.js"></script>
   </head>
   <body>
     <div class="mask"></div>
@@ -25,17 +27,50 @@
           <option value="star">Star</option>
         </select>
         <br />
-        <label class="label-text" for="color">Pick a Hex Color</label>
-        <br />
-        <input
-          class="input"
-          id="color"
-          type="text"
-          onchange="colorPicker()"
-          name="color"
-          placeholder="enter code without #"
-          maxlength="6"
-        />
+        <div class="slider-container">
+          <form>
+            <fieldset>
+              <legend>RGB to Hex</legend>
+              <label for="r">R</label>
+              <input
+                type="range"
+                min="0"
+                max="255"
+                id="r"
+                name="r"
+                step="1"
+                value="0"
+              />
+              <output for="r" id="r-out">0</output> </fieldset><br /><br /> 
+              <fieldset>
+              <label for="g">G</label>
+              <input
+                type="range"
+                min="0"
+                max="255"
+                id="g"
+                name="g"
+                step="1"
+                value="0"
+                
+              /><output for="g" id="g-out">0</output></fieldset><br /><br />
+              <fieldset>
+              <label for="b">B</label>
+              <input
+                type="range"
+                min="0"
+                max="255"
+                id="b"
+                name="b"
+                step="1"
+                value="0"
+              /><output for="b" id="b-out">0</output></fieldset><br /><br />
+            </fieldset>
+            <div class="hex-container">
+                <output id="hex">#000000</output>
+            </div>
+          </form>
+        </div>
       </form>
     </div>
   </body>
