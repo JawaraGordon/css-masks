@@ -117,12 +117,22 @@ html{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: auto;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+    border: 1px solid #fff;
+    border-radius: .5rem;
 }
 
 .shape-color-container{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: auto;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+    border: 1px solid #fff;
+    border-radius: .5rem;
 }
 
 .label-text{
