@@ -23,9 +23,10 @@ const colorPicker = () => {
 const backgroundImagePicker = () => {
   onSubmit();
   const url = document.getElementById('url').value;
-  console.log(url);
-  document.documentElement.style.setProperty('--background-image', `url(${url})`)
-  console.log(bgimg);
+  document.documentElement.style.setProperty(
+    '--background-image',
+    `url(${url})`
+  );
 
   onSubmit();
 };
