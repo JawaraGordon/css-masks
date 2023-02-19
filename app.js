@@ -8,10 +8,19 @@ const addMask = () => {
   });
 };
 
-addMask();
+const onSubmit = () => {
+  const form = document.getElementById('form');
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+  });
+};
 
 const colorPicker = () => {
+  onSubmit();
   const num = document.getElementById('color').value;
-  console.log(num);
   document.documentElement.style.setProperty('--primary-color', '#' + num);
+  onSubmit();
 };
+
+addMask();
