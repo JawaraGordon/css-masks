@@ -7,7 +7,6 @@ const addMask = () => {
     mask.classList.remove(shape);
   });
 };
-
 const onSubmit = () => {
   const form = document.getElementById('form');
 
@@ -15,11 +14,19 @@ const onSubmit = () => {
     e.preventDefault();
   });
 };
-
 const colorPicker = () => {
   onSubmit();
   const num = document.getElementById('color').value;
   document.documentElement.style.setProperty('--primary-color', '#' + num);
+  onSubmit();
+};
+const backgroundImagePicker = () => {
+  onSubmit();
+  const url = document.getElementById('url').value;
+  console.log(url);
+  document.documentElement.style.setProperty('--background-image', `url(${url})`)
+  console.log(bgimg);
+
   onSubmit();
 };
 

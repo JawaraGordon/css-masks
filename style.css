@@ -1,7 +1,7 @@
 :root {
     --primary-color: #000000;
     --secondary-color: #ffffff;
-    
+    --background-image: url();
 }
 
 * {
@@ -27,6 +27,9 @@ html{
 
 .circle {
     background-color: var(--primary-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--primary-color);
     mask-image: url();
     mask-size: 100%;
@@ -37,6 +40,9 @@ html{
 }
 .square {
     background-color: var(--primary-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--primary-color);
     mask-image: url();
     mask-size: 100%;
@@ -47,6 +53,9 @@ html{
 }
 .triangle {
     background-color: var(--primary-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--primary-color);
     mask-image: url();
     mask-size: 100%;
@@ -57,6 +66,9 @@ html{
 }
 .diamond {
     background-color: var(--primary-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--primary-color);   
     mask-image: url();
     mask-size: 100%;
@@ -67,6 +79,9 @@ html{
 }
 .pentagon {
     background-color: var(--primary-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--primary-color);
     mask-image: url();
     mask-size: 100%;
@@ -77,6 +92,9 @@ html{
 }
 .hexagon {
     background-color: var(--primary-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--primary-color);
     mask-image: url();
     mask-size: 100%;
@@ -87,6 +105,9 @@ html{
 }
 .octagon {
     background-color: var(--primary-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--primary-color);
     mask-image: url();
     mask-size: 100%;
@@ -97,6 +118,9 @@ html{
 }
 .star {
     background-color: var(--primary-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--primary-color);
     mask-image: url();
     mask-size: 100%;
@@ -140,6 +164,21 @@ html{
     text-align: center;
 }
 
+.bg-img-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,.3);
+    border: 1px solid #fff;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+#url{
+    border-radius: .4rem;
+    text-align: center;
+}
+
 .label-text{
     font-size: 1.5rem;
 }
@@ -164,6 +203,9 @@ html{
         margin-bottom: .5rem;
     }
     .shape-color-container{
+        margin-bottom: .5rem;
+    }
+    .bg-img-container{
         margin-bottom: .5rem;
     }
   }
