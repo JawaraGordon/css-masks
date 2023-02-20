@@ -23,12 +23,13 @@ const colorPicker = () => {
 const backgroundImagePicker = () => {
   onSubmit();
   const url = document.getElementById('url').value;
+
+  // sanitize input for xss
+  const sanitizedStr = url.replace(/(<([^>]+)>)/gi, '');
   document.documentElement.style.setProperty(
     '--background-image',
-    `url(${url})`
+    `url(${sanitizedStr})`
   );
-
   onSubmit();
 };
-
 addMask();

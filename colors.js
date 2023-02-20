@@ -15,21 +15,18 @@ r.addEventListener('input', () => {
   setRbgColor();
   setHexValue();
 });
-
 g.addEventListener('input', () => {
   gOut.value = g.value;
 
   setHexValue();
   setRbgColor();
 });
-
 b.addEventListener('input', () => {
   bOut.value = b.value;
 
   setHexValue();
   setRbgColor();
 });
-
 const setRbgColor = () => {
   rOutputNum = parseInt(r.value);
   gOutputNum = parseInt(g.value);
@@ -37,7 +34,6 @@ const setRbgColor = () => {
   body.style.backgroundColor =
     'rgb(' + rOutputNum + ', ' + gOutputNum + ', ' + bOutputNum + ')';
 };
-
 const setHexValue = () => {
   rHex = rOutputNum.toString(16);
   gHex = gOutputNum.toString(16);
