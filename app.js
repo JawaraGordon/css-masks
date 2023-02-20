@@ -17,7 +17,12 @@ const onSubmit = () => {
 const colorPicker = () => {
   onSubmit();
   const num = document.getElementById('color').value;
-  document.documentElement.style.setProperty('--primary-color', '#' + num);
+  // sanitize input for xss
+  const sanitizedStr = num.replace(/(<([^>]+)>)/gi, '');
+  document.documentElement.style.setProperty(
+    '--primary-color',
+    '#' + sanitizedStr
+  );
   onSubmit();
 };
 const backgroundImagePicker = () => {
