@@ -1,6 +1,6 @@
 # Color Mask Morph
 
-## A JavaScript application that allows you to pick from a list of mask shapes, add an image URL and apply them to different backgrounds with hex values with a built-in background color picker.
+## A JavaScript application that allows you to change the background color with a custom widget, pick from a list of mask shapes, change the shape color with a hex value, then add an image URL mask layer.
 
 ### Features
 
