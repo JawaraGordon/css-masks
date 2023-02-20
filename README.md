@@ -1,11 +1,14 @@
-# Mask Shape Picker
+# Color Mask Morph
 
-## A JavaScript / CSS tool that allows you to pick from a list of mask shapes and apply them to different hex-colored backgrounds.
+## A JavaScript application that allows you to pick from a list of mask shapes, add an image URL and apply them to different backgrounds with hex values with a built-in background color picker.
 
 ### Features
 
-- The tool is built using two custom functions that listen for changes on the form drop-down and input.
-- The functions work together to apply the correct SVG mask to the color of your choosing.
+- This app is built using custom functions that listen for changes on the form drop-down and sanitized inputs.
+- The functions work together to apply the correct SVG mask to the image and color of your choosing.
+- You can and an image URL address (ending in .jpg or .png format) to create a mask layer on top of an image. (transparent PNG files work best)
+- Use the color picker widget to instantly change the background color while generating a hex code value that can be copied to the shape color input field.
+- Available shapes are: circle, square,triangle, diamond, pentagon, hexagon, octagon and star.
 
 ### Live Demo
 
@@ -13,7 +16,15 @@ Try a live demo here: https://css-masks-jawaragordon.vercel.app/
 
 ### Getting Started
 
-- To use the tool, simply select a mask shape from the drop-down menu, then choose a hex color for the background. - The tool will then apply the selected mask shape to the background color of your choice.
+- Pick a shape from the drop-down menu.
+- Choose a background color by using the RGB color picker tool.
+- Enter a hex color (without the #) for the shape color. Press or tap enter/return.
+- The app will apply the selected mask shape and color to the background color of your choice.
+- Try different combinations of shapes and colors
+
+[Optional]
+
+- Enter an image URL that ends with .jpg or .png file extension into the "Mask Image" input field.
 
 ### Clone the repository here:
 
