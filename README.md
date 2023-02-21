@@ -10,6 +10,11 @@
 - Use the color picker widget to instantly change the background color while generating a hex code value that can be copied to the shape color input field.
 - Available shapes are: circle, square,triangle, diamond, pentagon, hexagon, octagon and star.
 
+### Version
+
+- 1.1 bug fixes:
+  added conditional statement to set default slider and hex values to '00' on initialization
+
 ### Live Demo
 
 Try a live demo here: https://css-masks-jawaragordon.vercel.app/
