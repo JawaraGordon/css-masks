@@ -35,9 +35,26 @@ const setRbgColor = () => {
     'rgb(' + rOutputNum + ', ' + gOutputNum + ', ' + bOutputNum + ')';
 };
 const setHexValue = () => {
+  // parsing base numbers to two digits
+  rOutputNum = parseInt(rOut.value);
+  gOutputNum = parseInt(gOut.value);
+  bOutputNum = parseInt(bOut.value);
+
+  //conditional to set default value to '00'
+  if (rOutputNum < 2) {
+    rOutputNum = '00';
+  }
+  if (gOutputNum < 2) {
+    gOutputNum = '00';
+  }
+  if (bOutputNum < 2) {
+    bOutputNum = '00';
+  }
+
   rHex = rOutputNum.toString(16);
   gHex = gOutputNum.toString(16);
   bHex = bOutputNum.toString(16);
+
   hex = '#' + rHex + gHex + bHex;
   hexOut.value = hex;
 };
