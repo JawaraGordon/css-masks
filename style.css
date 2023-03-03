@@ -180,6 +180,28 @@ html{
     height: 2rem;
     width: 11.5rem;
 }
+
+.logos a{
+    z-index: 1;
+}
+
+.github{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    margin: .3rem;
+    padding-top: .5rem;
+   
+}
+
+.github img{
+    max-width: 2rem;
+    margin-left: 2rem;
+    
+}
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .mask {
         height: 25vh;
